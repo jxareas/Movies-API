@@ -8,14 +8,16 @@ import lombok.Setter;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Genero")
-@AllArgsConstructor @NoArgsConstructor
-@Getter @Setter
-public class Genre implements BaseEntity {
+@Table(name = "Nacionalidad")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class Nationality implements BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "idGenero")
+    @Column(name = "idNacionalidad")
     private Long id;
 
 
