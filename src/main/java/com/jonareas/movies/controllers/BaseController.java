@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.io.Serializable;
+import java.util.List;
 
 public interface BaseController<T extends BaseEntity, ID extends Serializable> {
 

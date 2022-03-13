@@ -5,9 +5,4 @@ import java.io.Serializable;
 
 @MappedSuperclass
 public interface BaseEntity extends Serializable {
-
-
-
-
-
 }
